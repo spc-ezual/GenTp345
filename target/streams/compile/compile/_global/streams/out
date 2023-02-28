@@ -1,0 +1,4 @@
+[0m[[0m[31merror[0m] [0m[0mC:\Users\grego\OneDrive\Documents\Istic\L2\S2\TP345\src\main\scala\application\Application.scala:8:25: not found: value ET[0m
+[0m[[0m[31merror[0m] [0m[0m  val exp: Expression = ET(Mot("307"), Mot("308"))[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

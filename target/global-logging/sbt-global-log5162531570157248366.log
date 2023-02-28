@@ -1,0 +1,6 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(bgStop, Some(7de89dd1-419e-40f3-9fad-062a9b09d37b), Some(CommandSource(console0)))[0m
+[0m[[0m[31merror[0m] [0m[0mNot a valid command: bgStop[0m
+[0m[[0m[31merror[0m] [0m[0mExpected whitespace character[0m
+[0m[[0m[31merror[0m] [0m[0mbgStop[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

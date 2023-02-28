@@ -1,0 +1,87 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.8.0 (Debian Java 17.0.6)
+[debug] Load.defaultLoad until apply took 1079.55559ms
+[debug]                 Load.loadUnit: plugins took 709.71606ms
+[debug]                 Load.loadUnit: defsScala took 14.523848ms
+[debug] [Loading] Scanning directory /home/marcus/cours/L2/S4/GEN/TP345C/project/project
+[debug]                   Load.loadUnit: mkEval took 33.149472ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /home/marcus/cours/L2/S4/GEN/TP345C/project/project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 112.478829 ms
+[info] loading settings for project tp345c-build-build from metals.sbt ...
+[debug]                     Load.resolveProject(tp345c-build-build) took 443.120306ms
+[debug]                   Load.loadTransitive: finalizeProject(Project(id tp345c-build-build, base: /home/marcus/cours/L2/S4/GEN/TP345C/project/project, plugins: List(<none>))) took 604.970564ms
+[debug] [Loading] Done in /home/marcus/cours/L2/S4/GEN/TP345C/project/project, returning: (tp345c-build-build)
+[debug]                 Load.loadUnit: loadedProjectsRaw took 18550.281356ms
+[debug]                 Load.loadUnit: cleanEvalClasses took 195.974072ms
+[debug]               Load.loadUnit(file:/home/marcus/cours/L2/S4/GEN/TP345C/project/project/, ...) took 19511.491208ms
+[debug]             Load.apply: load took 20309.109209ms
+[debug]             Load.apply: resolveProjects took 46.834002ms
+[debug]             Load.apply: finalTransforms took 592.127995ms
+[debug]             Load.apply: config.delegates took 28.34273ms
+[debug]             Load.apply: Def.make(settings)... took 3032.133083ms
+[debug]             Load.apply: structureIndex took 716.571849ms
+[debug]             Load.apply: mkStreams took 4.605461ms
+[info] loading project definition from /home/marcus/cours/L2/S4/GEN/TP345C/project/project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]           Load.loadUnit: plugins took 36417.626314ms
+[debug]           Load.loadUnit: defsScala took 0.045666ms
+[debug] [Loading] Scanning directory /home/marcus/cours/L2/S4/GEN/TP345C/project
+[debug]             Load.loadUnit: mkEval took 1.124954ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /home/marcus/cours/L2/S4/GEN/TP345C/project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(bloop.integrations.sbt.BloopPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(bloop.integrations.sbt.BloopPlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,bloop.integrations.sbt.BloopPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 9.1053 ms
+[info] loading settings for project tp345c-build from metals.sbt ...
+[debug]               Load.resolveProject(tp345c-build) took 95.715288ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id tp345c-build, base: /home/marcus/cours/L2/S4/GEN/TP345C/project, plugins: List(<none>))) took 108.198067ms
+[debug] [Loading] Done in /home/marcus/cours/L2/S4/GEN/TP345C/project, returning: (tp345c-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 3260.638919ms
+[debug]           Load.loadUnit: cleanEvalClasses took 5.507764ms
+[debug]         Load.loadUnit(file:/home/marcus/cours/L2/S4/GEN/TP345C/project/, ...) took 39687.170091ms
+[debug]       Load.apply: load took 39706.661388ms
+[debug]       Load.apply: resolveProjects took 0.662145ms
+[debug]       Load.apply: finalTransforms took 74.174807ms
+[debug]       Load.apply: config.delegates took 2.41572ms
+[debug]       Load.apply: Def.make(settings)... took 989.273356ms
+[debug]       Load.apply: structureIndex took 452.077548ms
+[debug]       Load.apply: mkStreams took 0.010818ms
+[info] loading project definition from /home/marcus/cours/L2/S4/GEN/TP345C/project
+[debug] Evaluating tasks: bloopInstall
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true

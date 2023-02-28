@@ -1,0 +1,53 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(;Test/compile; collectAnalyses, None, Some(CommandSource(network-1)))[0m
+[0m[[0m[0mdebug[0m] [0m[0munmatched Processing event for requestId None: None[0m
+[0m[[0m[0mdebug[0m] [0m[0munmatched Done event for requestId None: None[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(Test/compile, None, Some(CommandSource(network-1)))[0m
+[0m[[0m[0mdebug[0m] [0m[0munmatched Processing event for requestId None: None[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / compile[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskStart, {"taskId":{"id":"21","parents":[]},"eventTime":1677266068038,"message":"Compiling tp345","dataKind":"compile-task","data":{"target":{"uri":"file:/C:/Users/grego/OneDrive/Documents/Istic/L2/S2/TP345/#tp345/Compile"}}})[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Users\grego\OneDrive\Documents\Istic\L2\S2\TP345\target\scala-2.13\classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"compiling 1 Scala source to C:\\Users\\grego\\OneDrive\\Documents\\Istic\\L2\\S2\\TP345\\target\\scala-2.13\\classes ..."})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///C:/Users/grego/OneDrive/Documents/Istic/L2/S2/TP345/src/main/scala/application/HTMLToString.scala"},"buildTarget":{"uri":"file:/C:/Users/grego/OneDrive/Documents/Istic/L2/S2/TP345/#tp345/Compile"},"diagnostics":[{"range":{"start":{"line":7,"character":27},"end":{"line":7,"character":44}},"severity":1,"source":"sbt","message":"missing argument list for method + in class String\nUnapplied methods are only converted to functions when a function type is expected.\nYou can make this conversion explicit by writing `+ _` or `+(_)` instead of `+`."}],"reset":false})[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\grego\OneDrive\Documents\Istic\L2\S2\TP345\src\main\scala\application\HTMLToString.scala:8:44: missing argument list for method + in class String[0m
+[0m[[0m[31merror[0m] [0m[0mUnapplied methods are only converted to functions when a function type is expected.[0m
+[0m[[0m[31merror[0m] [0m[0mYou can make this conversion explicit by writing `+ _` or `+(_)` instead of `+`.[0m
+[0m[[0m[31merror[0m] [0m[0m        case Tag(b,p,l) => "<" + b + ">\n" +[0m
+[0m[[0m[31merror[0m] [0m[0m                                           ^[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":1,"message":"C:\\Users\\grego\\OneDrive\\Documents\\Istic\\L2\\S2\\TP345\\src\\main\\scala\\application\\HTMLToString.scala:8:44: missing argument list for method + in class String\nUnapplied methods are only converted to functions when a function type is expected.\nYou can make this conversion explicit by writing `+ _` or `+(_)` instead of `+`."})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":1,"message":"        case Tag(b,p,l) => \"<\" + b + \">\\n\" +"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":1,"message":"                                           ^"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///C:/Users/grego/OneDrive/Documents/Istic/L2/S2/TP345/src/main/scala/application/HTMLToString.scala"},"buildTarget":{"uri":"file:/C:/Users/grego/OneDrive/Documents/Istic/L2/S2/TP345/#tp345/Compile"},"diagnostics":[{"range":{"start":{"line":18,"character":28},"end":{"line":18,"character":30}},"severity":1,"source":"sbt","message":"type mismatch;\n found   : Unit\n required: String"}],"reset":false})[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\grego\OneDrive\Documents\Istic\L2\S2\TP345\src\main\scala\application\HTMLToString.scala:19:29: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : Unit[0m
+[0m[[0m[31merror[0m] [0m[0m required: String[0m
+[0m[[0m[31merror[0m] [0m[0m            case Tag(b,p,l) =>[0m
+[0m[[0m[31merror[0m] [0m[0m                            ^[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":1,"message":"C:\\Users\\grego\\OneDrive\\Documents\\Istic\\L2\\S2\\TP345\\src\\main\\scala\\application\\HTMLToString.scala:19:29: type mismatch;\n found   : Unit\n required: String"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":1,"message":"            case Tag(b,p,l) =>"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":1,"message":"                            ^"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskProgress, {"taskId":{"id":"21","parents":[]},"eventTime":1677266068224,"message":"Compiling tp345 (15%)","total":26,"progress":15,"dataKind":"compile-progress","data":{"target":{"uri":"file:/C:/Users/grego/OneDrive/Documents/Istic/L2/S2/TP345/#tp345/Compile"}}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskProgress, {"taskId":{"id":"21","parents":[]},"eventTime":1677266068224,"message":"Compiling tp345 (15%)","total":26,"progress":15,"dataKind":"compile-progress","data":{"target":{"uri":"file:/C:/Users/grego/OneDrive/Documents/Istic/L2/S2/TP345/#tp345/Compile"}}})[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":1,"message":"two errors found"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///C:/Users/grego/OneDrive/Documents/Istic/L2/S2/TP345/src/main/scala/application/HTMLToString.scala"},"buildTarget":{"uri":"file:/C:/Users/grego/OneDrive/Documents/Istic/L2/S2/TP345/#tp345/Compile"},"diagnostics":[{"range":{"start":{"line":7,"character":27},"end":{"line":7,"character":44}},"severity":1,"source":"sbt","message":"missing argument list for method + in class String\nUnapplied methods are only converted to functions when a function type is expected.\nYou can make this conversion explicit by writing `+ _` or `+(_)` instead of `+`."},{"range":{"start":{"line":18,"character":28},"end":{"line":18,"character":30}},"severity":1,"source":"sbt","message":"type mismatch;\n found   : Unit\n required: String"}],"reset":true})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskFinish, {"taskId":{"id":"21","parents":[]},"eventTime":1677266068233,"message":"Compiled tp345","status":2,"dataKind":"compile-report","data":{"target":{"uri":"file:/C:/Users/grego/OneDrive/Documents/Istic/L2/S2/TP345/#tp345/Compile"},"errors":2,"warnings":0,"time":195}})[0m
+[0m[[0m[0mdebug[0m] [0m[0munmatched json error for requestId None: {"code":-32603,"message":"(Compile / \u001b[31mcompileIncremental\u001b[0m) Compilation failed"}[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":1,"message":"(Compile / \u001b[31mcompileIncremental\u001b[0m) Compilation failed"})[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 0 s, completed 24 févr. 2023, 20:14:28[0m
+[0m[[0m[0mdebug[0m] [0m[0munmatched Done event for requestId None: None[0m
+[0m[[0m[0mdebug[0m] [0m[0mtried to call schedule on closed TaskProgress[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m
+[0m[[0m[0mdebug[0m] [0m[0mlsp-definition json request: {"textDocument":{"uri":"file:///c%3A/Users/grego/OneDrive/Documents/Istic/L2/S2/TP345/src/main/scala/application/HTMLToString.scala"},"position":{"line":11,"character":16}}[0m
+[0m[[0m[0mdebug[0m] [0m[0mlsp-definition found line:             k}[0m
+[0m[[0m[0minfo[0m] [0m[0mSymbol not found in definition request {"textDocument":{"uri":"file:///c%3A/Users/grego/OneDrive/Documents/Istic/L2/S2/TP345/src/main/scala/application/HTMLToString.scala"},"position":{"line":11,"character":16}}[0m
+[0m[[0m[0mdebug[0m] [0m[0mlsp-definition json request: {"textDocument":{"uri":"file:///c%3A/Users/grego/OneDrive/Documents/Istic/L2/S2/TP345/src/main/scala/application/HTMLToString.scala"},"position":{"line":11,"character":16}}[0m
+[0m[[0m[0mdebug[0m] [0m[0mlsp-definition found line:             k}[0m
+[0m[[0m[0minfo[0m] [0m[0mSymbol not found in definition request {"textDocument":{"uri":"file:///c%3A/Users/grego/OneDrive/Documents/Istic/L2/S2/TP345/src/main/scala/application/HTMLToString.scala"},"position":{"line":11,"character":16}}[0m
+[0m[[0m[0mdebug[0m] [0m[0mlsp-definition json request: {"textDocument":{"uri":"file:///c%3A/Users/grego/OneDrive/Documents/Istic/L2/S2/TP345/src/main/scala/application/HTMLToString.scala"},"position":{"line":6,"character":10}}[0m
+[0m[[0m[0mdebug[0m] [0m[0mlsp-definition found line:         h match{[0m
+[0m[[0m[0mdebug[0m] [0m[0msymbol matc[0m
+[0m[[0m[0mdebug[0m] [0m[0mlsp-definition potentials: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mlsp-definition locations Vector()[0m

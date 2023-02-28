@@ -1,0 +1,6 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(compile, Some(eca1b61f-2f4e-40e3-b86c-5e132e7d7409), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / compile[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Users\grego\OneDrive\Documents\Istic\L2\S2\TP345\target\scala-2.13\classes ...[0m
+[0m[[0m[32msuccess[0m] [0m[0mTotal time: 0 s, completed 27 févr. 2023, 14:40:15[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
