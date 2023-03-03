@@ -3151,3 +3151,20 @@ WARNING: Unmatched cancel notification for request id 1451
 2023.03.03 20:47:18 WARN  Using indexes to guess the definition of Expression
 2023.03.03 20:48:21 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\GEN\tp345\src\main\scala\application\HTMLToString.scala
 2023.03.03 20:48:30 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\GEN\tp345\src\main\scala\application\FiltrageHTML.scala
+2023.03.03 20:48:39 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\GEN\tp345\src\main\scala\application\ProductionResultat.scala
+Exception in thread "pool-4-thread-9" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023.03.03 20:49:49 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\GEN\tp345\src\main\scala\application\ProductionResultat.scala
+2023.03.03 20:51:31 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\GEN\tp345\src\main\scala\library\HtmlStructure.scala
+2023.03.03 20:52:28 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\GEN\tp345\src\main\scala\application\HTMLToString.scala
+2023.03.03 20:54:32 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\GEN\tp345\src\main\scala\application\HTMLToString.scala
+2023.03.03 20:54:49 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\GEN\tp345\src\main\scala\application\ProductionResultat.scala
+2023.03.03 20:56:50 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\GEN\tp345\src\main\scala\application\ProductionResultat.scala
+2023.03.03 20:57:16 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\GEN\tp345\src\main\scala\application\ProductionResultat.scala
+2023.03.03 20:58:03 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\GEN\tp345\src\main\scala\application\ProductionResultat.scala
+2023.03.03 20:59:01 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\GEN\tp345\src\main\scala\application\ProductionResultat.scala
