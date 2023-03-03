@@ -5727,3 +5727,72 @@ file%3A%2F%2F%2FC%3A%2FUsers%2FUtilisateur%2FDesktop%2FCours%2FUniv%2FL2%2FGEN%2
 mars 03, 2023 9:29:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
 WARNING: Unmatched cancel notification for request id 3942
 2023.03.03 21:29:17 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\GEN\tp345\src\test\scala\Tests.scala
+2023.03.03 21:30:35 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\GEN\tp345\src\test\scala\TestsFiltreH.scala
+2023.03.03 21:30:38 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\GEN\tp345\src\test\scala\TestsFiltreH.scala
+mars 03, 2023 9:30:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3981
+2023.03.03 21:30:40 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\GEN\tp345\src\test\scala\TestsFiltreH.scala
+2023.03.03 21:31:26 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\GEN\tp345\src\main\scala\application\FiltrageHTML.scala
+Exception in thread "pool-4-thread-10" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023.03.03 21:31:26 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\GEN\tp345\src\main\scala\application\FiltrageHTML.scala
+2023.03.03 21:31:43 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\GEN\tp345\src\main\scala\application\FiltrageHTML.scala
+2023.03.03 21:31:43 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\GEN\tp345\src\main\scala\application\FiltrageHTML.scala
+mars 03, 2023 9:32:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4161
+2023.03.03 21:32:17 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\GEN\tp345\src\test\scala\TestsFiltreH.scala
+2023.03.03 21:32:49 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\GEN\tp345\src\test\scala\TestsFiltreH.scala
+2023.03.03 21:33:10 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\GEN\tp345\src\test\scala\TestsFiltreH.scala
+2023.03.03 21:33:48 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\GEN\tp345\src\test\scala\TestsFiltreH.scala
+2023.03.03 21:33:48 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\GEN\tp345\src\test\scala\TestsFiltreH.scala
+2023.03.03 21:34:00 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\GEN\tp345\src\test\scala\TestsFiltreH.scala
+2023.03.03 21:34:00 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\GEN\tp345\src\test\scala\TestsFiltreH.scala
+2023.03.03 21:35:13 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\GEN\tp345\src\main\scala\application\FiltrageURL.scala
+2023.03.03 21:35:41 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\GEN\tp345\src\test\scala\TestsFiltreU.scala
+2023.03.03 21:36:00 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\GEN\tp345\src\test\scala\TestsFiltreU.scala
+2023.03.03 21:36:13 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\GEN\tp345\src\test\scala\TestsFiltreU.scala
+2023.03.03 21:36:13 WARN  Using indexes to guess the definition of FiltrageURL
+2023.03.03 21:37:08 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\GEN\tp345\src\test\scala\TestsFiltreU.scala
+2023.03.03 21:37:37 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\GEN\tp345\src\main\scala\application\FiltrageURL.scala
+2023.03.03 21:37:40 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\GEN\tp345\src\test\scala\TestsFiltreU.scala
+2023.03.03 21:37:44 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\GEN\tp345\src\test\scala\TestsFiltreU.scala
+2023.03.03 21:37:46 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\GEN\tp345\src\test\scala\TestsFiltreU.scala
+2023.03.03 21:37:47 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\GEN\tp345\src\test\scala\TestsFiltreU.scala
+2023.03.03 21:37:54 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\GEN\tp345\src\test\scala\TestsFiltreU.scala
+2023.03.03 21:37:54 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\GEN\tp345\src\test\scala\TestsFiltreU.scala
+2023.03.03 21:38:01 WARN  Using indexes to guess the definition of filtreAnnonce
+2023.03.03 21:38:02 WARN  Using indexes to guess the definition of filtreAnnonce
+2023.03.03 21:38:02 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\GEN\tp345\src\test\scala\TestsFiltreU.scala
+2023.03.03 21:39:09 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\GEN\tp345\src\test\scala\TestsFiltreU.scala
+mars 03, 2023 9:40:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5147
+mars 03, 2023 9:40:33 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5153
+2023.03.03 21:40:39 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\GEN\tp345\src\test\scala\TestsFiltreU.scala
+2023.03.03 21:40:57 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\GEN\tp345\src\test\scala\TestsFiltreU.scala
+2023.03.03 21:40:57 WARN  Using indexes to guess the definition of filtreAnnonce
+2023.03.03 21:40:57 WARN  Using indexes to guess the definition of filtreAnnonce
+2023.03.03 21:41:20 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\GEN\tp345\src\test\scala\TestsFiltreU.scala
+2023.03.03 21:42:19 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\GEN\tp345\src\test\scala\TestsFiltreU.scala
+2023.03.03 21:42:43 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\GEN\tp345\src\test\scala\TestsFiltreU.scala
+2023.03.03 21:42:56 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\GEN\tp345\src\test\scala\TestsFiltreU.scala
+2023.03.03 21:43:35 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\GEN\tp345\src\main\scala\application\FiltrageURL.scala
+2023.03.03 21:43:39 WARN  Using indexes to guess the definition of filtreAnnonce
+2023.03.03 21:43:40 WARN  Using indexes to guess the definition of liensPages
+2023.03.03 21:43:42 WARN  Using indexes to guess the definition of filtreAnnonce
+2023.03.03 21:43:46 WARN  Using indexes to guess the definition of filtreAnnonce
+2023.03.03 21:43:48 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\GEN\tp345\src\test\scala\TestsFiltreU.scala
+2023.03.03 21:44:01 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\GEN\tp345\src\test\scala\TestsFiltreU.scala
+2023.03.03 21:44:05 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\GEN\tp345\src\test\scala\TestsFiltreU.scala
+2023.03.03 21:44:07 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\GEN\tp345\src\test\scala\TestsFiltreU.scala
+2023.03.03 21:44:08 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\GEN\tp345\src\test\scala\TestsFiltreU.scala
+2023.03.03 21:47:08 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\GEN\tp345\src\test\scala\TestsFiltreU.scala
+2023.03.03 21:47:46 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\GEN\tp345\src\test\scala\TestsFiltreU.scala
+2023.03.03 21:48:17 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\GEN\tp345\src\test\scala\TestsFiltreU.scala
+2023.03.03 21:48:29 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\GEN\tp345\src\test\scala\TestsFiltreU.scala
+2023.03.03 21:48:29 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\GEN\tp345\src\test\scala\TestsFiltreU.scala
