@@ -17,7 +17,7 @@ object FiltrageURL extends FiltrageURLs {
     var liens: List[String] = liensPages(h)
     var newLiens: List[String] = List()
     for (lien <- liens) {
-      if (lien.contains("www.vivastreet.com")) {
+      if (lien.length>9&&lien.substring(lien.length()-9).matches("^\\p{Digit}+$")) {
         newLiens = newLiens ++ List(lien)
       }
     }
