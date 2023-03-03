@@ -1,5 +1,5 @@
-[0m[[0m[0mdebug[0m] [0m[0m> Exec(compile, Some(19f40b9d-b37c-4588-befb-273db43c6a9d), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(compile, Some(e0c294cf-6947-4102-87d3-74e4093aecb0), Some(CommandSource(console0)))[0m
 [0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / compile[0m
 [0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
-[0m[[0m[32msuccess[0m] [0m[0mTotal time: 0 s, completed 3 mars 2023, 21:01:16[0m
+[0m[[0m[32msuccess[0m] [0m[0mTotal time: 0 s, completed 3 mars 2023, 21:29:18[0m
 [0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

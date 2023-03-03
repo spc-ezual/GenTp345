@@ -3168,3 +3168,7 @@ Exception in thread "pool-4-thread-9" java.lang.InterruptedException
 2023.03.03 20:57:16 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\GEN\tp345\src\main\scala\application\ProductionResultat.scala
 2023.03.03 20:58:03 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\GEN\tp345\src\main\scala\application\ProductionResultat.scala
 2023.03.03 20:59:01 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\GEN\tp345\src\main\scala\application\ProductionResultat.scala
+2023.03.03 21:00:29 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\GEN\tp345\src\main\scala\application\HTMLToString.scala
+2023.03.03 21:00:34 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\GEN\tp345\src\main\scala\application\HTMLToString.scala
+mars 03, 2023 9:01:59 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace

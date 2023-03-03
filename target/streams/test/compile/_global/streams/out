@@ -1,0 +1,13 @@
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Utilisateur\Desktop\Cours\Univ\L2\GEN\tp345\src\test\scala\Tests.scala:4:20: object filtreHtml is not a member of package application[0m
+[0m[[0m[31merror[0m] [0m[0mimport application.filtreHtml._[0m
+[0m[[0m[31merror[0m] [0m[0m                   ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Utilisateur\Desktop\Cours\Univ\L2\GEN\tp345\src\test\scala\Tests.scala:12:12: not found: value filtreHtml[0m
+[0m[[0m[31merror[0m] [0m[0m    assert(filtreHtml(Tag("html", List(),[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Utilisateur\Desktop\Cours\Univ\L2\GEN\tp345\src\test\scala\Tests.scala:25:12: not found: value filtreHtml[0m
+[0m[[0m[31merror[0m] [0m[0m    assert(filtreHtml(Tag("html", List(),[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Utilisateur\Desktop\Cours\Univ\L2\GEN\tp345\src\test\scala\Tests.scala:38:12: not found: value filtreHtml[0m
+[0m[[0m[31merror[0m] [0m[0m    assert(filtreHtml(Tag("html", List(),[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0mfour errors found[0m
