@@ -1,3 +1,3 @@
-[0m[[0m[0mdebug[0m] [0m[0m> Exec(test, Some(ec348e60-4d36-49ab-bc43-cc01ee1856c6), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(test, Some(ad4b417f-7f6b-47da-a84d-f1bbca76f230), Some(CommandSource(console0)))[0m
 [0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / test[0m
 [0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m

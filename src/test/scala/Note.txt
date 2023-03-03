@@ -1,0 +1,2 @@
+Il n'y a pas de tests pour traduire et resultatVersHtml en raison du fait que ceux-ci sont trop complexe à testé car celles ci produise des page html complexe .
+ 
