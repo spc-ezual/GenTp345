@@ -9,7 +9,7 @@ object HTMLToString extends HtmlVersString {
         val attrString =
           attributes.map { case (key, value) => s"$key=$value" }.mkString(" ")
         val childrenString = children.map(traduire).mkString
-        s"<$name $attrString>$childrenString \n </$name>"
+        s"<$name $attrString>$childrenString \n <br> </$name>"
       case Texte(content) =>
         content
     }

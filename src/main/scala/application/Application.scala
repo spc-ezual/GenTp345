@@ -5,7 +5,8 @@ import java.io.FileWriter
 
 object Application extends App {
   // val exp: Expression = ParserExpression.lireExpression
-  val exp: Expression = Et(Mot("peugeot"), Mot("308"))
+  //Et(Mot("peugeot"), Mot("308"))
+  val exp: Expression = Mot("Voiture")
   val lStringInfo: List[String] = expressionToStringList(exp)
   var lTiURL: List[(String, String)] = List()
 

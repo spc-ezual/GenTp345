@@ -1,4 +1,4 @@
-[debug] [tp345-copie-build] Classpath dependencies List()
-[debug] [tp345-copie-build] Dependencies from configurations List()
-[debug] Bloop wrote the configuration of project 'tp345-copie-build' to '/home/marcus/cours/L2/S4/GEN/TP345 - Copie/project/.bloop/tp345-copie-build.json'
-[success] Generated .bloop/tp345-copie-build.json
+[0m[[0m[0mdebug[0m] [0m[0m[tp345-build] Classpath dependencies List()[0m
+[0m[[0m[0mdebug[0m] [0m[0m[tp345-build] Dependencies from configurations List()[0m
+[0m[[0m[0mdebug[0m] [0m[0mBloop wrote the configuration of project 'tp345-build' to 'C:\Users\Utilisateur\Desktop\Cours\Univ\L2\GEN\tp345\project\.bloop\tp345-build.json'[0m
+[0m[[0m[32msuccess[0m] [0m[0mGenerated .bloop\tp345-build.json[0m

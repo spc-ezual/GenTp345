@@ -1,2 +1,3 @@
-[debug] not up to date. inChanged = true, force = false
-[debug] Updating ProjectRef(uri("file:/home/marcus/cours/L2/S4/GEN/TP345C/project/"), "tp345c-build")...
+[0m[[0m[0mdebug[0m] [0m[0mnot up to date. inChanged = true, force = false[0m
+[0m[[0m[0mdebug[0m] [0m[0mUpdating ProjectRef(uri("file:/C:/Users/Utilisateur/Desktop/Cours/Univ/L2/GEN/tp345/project/"), "tp345-build")...[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone updating ProjectRef(uri("file:/C:/Users/Utilisateur/Desktop/Cours/Univ/L2/GEN/tp345/project/"), "tp345-build")[0m
