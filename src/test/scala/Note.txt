@@ -1,2 +1,2 @@
 Il n'y a pas de tests pour traduire et resultatVersHtml en raison du fait que ceux-ci sont trop complexe à testé car celles ci produise des page html complexe .
- 
+Aucune idée de comment créé un test pour 3.1 et 3.2 car ceux ci utilise le site vivastreet ce qui implique que si demain une annonce change sur la page recherché le test ne passera surment plus.
